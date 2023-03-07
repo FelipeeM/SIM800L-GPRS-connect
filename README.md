@@ -4,11 +4,11 @@
 
 #### I used a M2M sim card to connect to the GPRS network, but you can try other SIM card types, that has internet connection.
 
-<div style="text-align: center; padding: 4px; width: 150px">
+<div style="text-align: center; padding: 4px;">
     <h5>SIM position</h5>
     <p style="align: center;">
         <img style="border: 4px solid black;
-                    border-radius: 10px;"
+                    border-radius: 10px; width: 150px;"
                 src="./gif/position_sim.PNG">
     </p>    
 </div>
@@ -46,29 +46,31 @@ String url = "http://YOUR-API.com/";          //URL of API
 
 #### LED Blink Status
 
-<div style="display: flex">
-    <div style="text-align: center;padding: 4px">
+<table>
+  <tr>
+    <td style="text-align: center;">
         <h5>Looking at Network Signal</h5>
         <p style="align: center;">
             <img style="border: 4px solid black;
                         border-radius: 10px;"
                     src="./gif/looking_network.gif">
         </p>
-    </div>
-    <div style="text-align: center;padding: 4px">
+    </td>
+    <td style="text-align: center;">
         <h5>Connected to Network</h5>
         <p style="align: center;">
             <img style="border: 4px solid black;
                         border-radius: 10px;"
                     src="./gif/conected_network.gif">
         </p>
-    </div>
-    <div style="text-align: center; padding: 4px">
+    </td>
+    <td style="text-align: center;">
         <h5>Connected to GPRS</h5>
         <p style="align: center;">
             <img style="border: 4px solid black;
                         border-radius: 10px;"
                     src="./gif/conected_GPRS.gif">
         </p>    
-    </div>
-</div>
+    </td>
+  </tr>
+</table>
