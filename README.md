@@ -1,6 +1,6 @@
 # SIM800L-GPRS-connect
 
-###Simple coding to connect sim800l in GPRS and send HTTP Get Request.
+### Simple coding to connect sim800l in GPRS and send HTTP Get Request.
 
 #### I used a M2M sim card to connect to the GPRS network, but you can try other SIM card types, that has internet connection.
 
